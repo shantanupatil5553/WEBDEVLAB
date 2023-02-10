@@ -1,0 +1,48 @@
+/* Element selector */
+body{
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 35px;
+}
+h2{
+    font-size: 50px;
+}
+
+/* Group selector */
+h1,h2{
+    font-size: 50px;
+}
+
+/* Class selector */
+.sgp{
+    border: 3px solid black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+/* ID selector */
+#heading{
+    color: red;
+}
+#poem{
+    color: black;
+}
+#author{
+    color: orange;
+}
+
+/* universal selector */
+*{
+    background-color: aqua;
+}
+
+/* child selector */
+p>i>u{
+    color: blue;
+}
